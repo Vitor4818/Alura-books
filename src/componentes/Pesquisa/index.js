@@ -42,6 +42,12 @@ function Pesquisa (){
                 }}
             />
 
+        {livrosPesquisados.map(livro => (
+            <div>
+                <p>{livro.nome}</p>
+                <img src={livro.src}/>
+            </div>
+    ))}
         </PesquisaContainer>
     )
 }
