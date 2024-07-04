@@ -8,7 +8,7 @@ const PesquisaContainer = styled.section`
     color: #FFF;
     text-align: center;
     padding: 85px 0;
-    height: 270px;
+    height: 55vh;
     width: 100%;
 `
 
@@ -31,11 +31,13 @@ const Resultado = styled.div`
     align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    margin-top: 2%;
+
     p {
         width: 200px;
     }
     img {
-        width: 100px;
+        width: 40px;
     }
     &:hover {
         border: 1px solid white;
